@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#1c110c"/>
+  <meta name="referrer" content="no-referrer"/>
+  <meta name="description" content="ELLORD OPTICS — صفحة متابعة الفريق الأسبوعية وعدّاد موعد التسليم"/>
+  <title>ELLORD OPTICS | المتابعة الأسبوعية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root{--bg:#130c08;--panel:#21150f;--panel2:#2b1b13;--fg:#fff9f5;--muted:#ccb8aa;--line:#62402c;--brand:#f0481f;--brand2:#ff773f;--good:#96e4b0;--warn:#ffcd85}
+    *{box-sizing:border-box}
+    html{background:var(--bg)}
+    body{margin:0;color:var(--fg);min-height:100vh;font-family:'IBM Plex Sans Arabic','IBM Plex Sans',system-ui,sans-serif;background:radial-gradient(ellipse 95% 60% at 10% 0%,#5a260d 0%,#271509 35%,transparent 72%),radial-gradient(circle at 120% 100%,#4d180b 0%,transparent 50%),var(--bg)}
+    main{max-width:840px;margin:auto;padding:22px 18px 32px}
+    .topline{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px;color:var(--muted);font-size:12px;letter-spacing:.04em}
+    .dot{height:7px;width:7px;border-radius:100%;background:var(--brand);display:inline-block;margin-inline-start:7px}
+    .mast{position:relative;overflow:hidden;border:1px solid #714021;border-radius:24px;background:#21130d;box-shadow:0 20px 70px #08040388}
+    .mast img{width:100%;height:220px;object-fit:contain;display:block;background:#150a04}
+    .mast:after{content:'';pointer-events:none;position:absolute;inset:0;background:linear-gradient(0deg,#160b06bb,transparent 60%)}
+    .eyebrow{font-size:11px;letter-spacing:.22em;font-family:'IBM Plex Sans',sans-serif;color:var(--brand2);font-weight:700;margin-top:24px}
+    h1{font-size:clamp(23px,4.7vw,38px);margin:8px 0 7px;font-weight:700;line-height:1.4}
+    .lede{margin:0;color:var(--muted);font-size:14px;line-height:1.95}
+    .panel{background:linear-gradient(140deg,#312016,#21150f);border:1px solid #69412b;border-radius:20px;padding:23px;margin-top:22px}
+    .label{font-size:13px;color:var(--muted);margin-bottom:9px}
+    .deadline{font-size:15px;font-weight:600;color:#f5ece6;margin:7px 0 18px}
+    .digits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;direction:rtl}
+    .digit{background:#130c09;border:1px solid #70412b;border-radius:12px;padding:15px 4px;text-align:center}
+    .digit strong{display:block;font-size:clamp(23px,5vw,43px);font-family:'IBM Plex Sans',sans-serif;font-variant-numeric:tabular-nums;font-weight:600;direction:ltr}
+    .digit span{display:block;font-size:11px;color:var(--muted);margin-top:7px}
+    .status{font-size:13px;line-height:1.95;margin:17px 0 0;color:var(--good)}
+    .status.late{color:var(--warn)}
+    h2{font-size:19px;margin:30px 0 7px}
+    .desc{color:var(--muted);font-size:13px;line-height:1.9;margin:0 0 16px}
+    .links{display:grid;grid-template-columns:1fr;gap:10px}
+    .form-link{border-radius:15px;padding:17px 18px;display:flex;justify-content:space-between;align-items:center;gap:12px;text-decoration:none;background:#27180f;border:1px solid #6c3b22;color:var(--fg);transition:transform .15s,border-color .15s}
+    .form-link:hover{transform:translateY(-2px);border-color:var(--brand2)}
+    .form-link:focus-visible{outline:2px solid var(--brand);outline-offset:4px}
+    .form-link small{display:block;color:var(--muted);font-size:12px;margin-top:5px}
+    .arrow{background:var(--brand);padding:9px 12px;border-radius:10px;font-family:'IBM Plex Sans',sans-serif;font-weight:700;flex:none}
+    .form-link.disabled{cursor:not-allowed;opacity:.55;background:#1d140e;border-color:#483124}
+    .form-link.disabled .arrow{background:#5b4132}
+    .foot{padding:23px 2px 2px;margin-top:25px;border-top:1px solid #523527;color:#bca99d;font-size:12px;line-height:2;text-align:center}
+    .foot b{color:#f4eae3}
+    @media(min-width:660px){main{padding:28px}.mast img{height:278px}.links{grid-template-columns:1fr 1fr}.form-link:last-child:nth-child(odd){grid-column:1/-1}}
+    @media(prefers-reduced-motion:reduce){.form-link{transition:none}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="topline"><span><span class="dot"></span> ELLORD OPTICS — The LORD Standard</span><span>Weekly Team Check-in</span></div>
+  <div class="mast"><img src="assets/ELLORD_ORIGINAL_LOGO.jpeg" alt="شعار ELLORD OPTICS الأصلي" width="1200" height="1200" loading="eager"/></div>
+  <p class="eyebrow">WEEKLY OPERATIONS · V5.2</p>
+  <h1>المتابعة الأسبوعية لفريق اللورد</h1>
+  <p class="lede">تحديث بسيط كل أسبوع يساعدنا نحل المشاكل بسرعة، ونتابع التارجت قبل نهاية الشهر. اختاري النموذج المناسب لمسؤوليتك.</p>
+  <section class="panel" aria-label="العد التنازلي">
+    <div class="label">الوقت المتبقي حتى الموعد الأسبوعي القادم</div>
+    <div class="deadline" id="deadlineLabel">جارٍ حساب موعد السبت القادم بتوقيت مصر…</div>
+    <div class="digits" role="timer" aria-live="off">
+      <div class="digit"><strong id="days">--</strong><span>يوم</span></div>
+      <div class="digit"><strong id="hours">--</strong><span>ساعة</span></div>
+      <div class="digit"><strong id="minutes">--</strong><span>دقيقة</span></div>
+      <div class="digit"><strong id="seconds">--</strong><span>ثانية</span></div>
+    </div>
+    <p class="status" id="statusText" aria-live="polite">السبت قبل ١:٠٠ ظهرًا — التسجيل مفتوح دائمًا.</p>
+  </section>
+  <section aria-label="نماذج متابعة الفريق">
+    <h2>فتح النموذج</h2>
+    <p class="desc">هتختاري اسمك داخل Google Form فقط. وقت الإرسال بيتسجل تلقائيًا، والتأخير بعد الساعة ١ ظهرًا ما بيقفلش التسجيل.</p>
+    <div id="links" class="links"></div>
+  </section>
+  <footer class="foot"><b>ELLORD OPTICS | بصريات اللورد</b><br/>منذ 1989… بمعيار اللورد 👑<br/>التقارير تُرسل إلى Google Forms، ولا تُعرض بيانات الإدارة على هذه الصفحة.</footer>
+</main>
+<script src="forms-config.js"></script>
+<script>
+'use strict';
+(function(){
+  const Z='Africa/Cairo';
+  const S=1000,M=60*S,H=60*M,D=24*H;
+  const names=new Intl.DateTimeFormat('ar-EG',{timeZone:Z,day:'numeric',month:'long',year:'numeric'});
+  const fmt=new Intl.DateTimeFormat('en-GB',{timeZone:Z,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
+  const el=id=>document.getElementById(id);
+  const pad=n=>String(n).padStart(2,'0');
+  function parts(date){
+    const d={};
+    fmt.formatToParts(date).forEach(p=>{if(p.type!=='literal')d[p.type]=Number(p.value)});
+    return {y:d.year,m:d.month,d:d.day,h:d.hour,mi:d.minute,s:d.second};
+  }
+  function cairoToUtc(y,m,d,h,mi=0,s=0){
+    const wanted=Date.UTC(y,m-1,d,h,mi,s);
+    let guess=wanted;
+    for(let j=0;j<5;j++){
+      const p=parts(new Date(guess));
+      const actual=Date.UTC(p.y,p.m-1,p.d,p.h,p.mi,p.s);
+      const diff=wanted-actual;
+      if(!diff)break;
+      guess+=diff;
+    }
+    return guess;
+  }
+  function nextDeadline(now){
+    const p=parts(now),thisDay=Date.UTC(p.y,p.m-1,p.d);
+    const dow=new Date(thisDay).getUTCDay();
+    const days=(6-dow+7)%7;
+    let target=new Date(thisDay+days*D);
+    let ms=cairoToUtc(target.getUTCFullYear(),target.getUTCMonth()+1,target.getUTCDate(),13);
+    if(ms<=now.getTime()){
+      target=new Date(thisDay+(days+7)*D);
+      ms=cairoToUtc(target.getUTCFullYear(),target.getUTCMonth()+1,target.getUTCDate(),13);
+    }
+    return {ms,date:new Date(ms),dow,parts:p};
+  }
+  function renderTime(){
+    const now=new Date(),t=nextDeadline(now);
+    const remaining=Math.max(0,t.ms-now.getTime());
+    el('days').textContent=String(Math.floor(remaining/D));
+    el('hours').textContent=pad(Math.floor(remaining% D/H));
+    el('minutes').textContent=pad(Math.floor(remaining% H/M));
+    el('seconds').textContent=pad(Math.floor(remaining% M/S));
+    el('deadlineLabel').textContent='السبت '+names.format(t.date)+' · ١:٠٠ ظهرًا بتوقيت مصر';
+    const isLate=(t.dow===6 && t.parts.h>=13) || [0,1,2,3,4].includes(t.dow) || (t.dow===5 && t.parts.h<18);
+    const status=el('statusText');
+    status.classList.toggle('late',isLate);
+    status.textContent=isLate
+      ? 'موعد التقرير السابق انتهى. تقدري تسلّميه الآن وهيتسجل متأخرًا — التسجيل مفتوح دائمًا.'
+      : 'تسليم الأسبوع الجديد متاح حتى السبت قبل ١ ظهرًا. التسجيل يظل مفتوحًا بعد الموعد.';
+  }
+  function validForm(url){
+    try{const u=new URL(url);return u.protocol==='https:'&&u.hostname==='docs.google.com'&&u.pathname.startsWith('/forms/')}catch(e){return false}
+  }
+  function renderLinks(){
+    const host=el('links');host.textContent='';
+    const links=Array.isArray(window.ELLORD_FORMS)?window.ELLORD_FORMS:[];
+    if(!links.length){const p=document.createElement('p');p.textContent='لم يتم إعداد روابط النماذج بعد. تواصلي مع الإدارة.';host.appendChild(p);return;}
+    links.forEach(entry=>{
+      const active=validForm(entry.url);
+      const node=document.createElement(active?'a':'div');
+      node.className='form-link'+(active?'':' disabled');
+      const detail=document.createElement('span'),title=document.createElement('b'),sub=document.createElement('small'),action=document.createElement('span');
+      title.textContent=entry.label||'المتابعة الأسبوعية';sub.textContent=active?(entry.branch||'اضغطي لفتح النموذج'):'لم يتم ربط النموذج بعد';
+      action.className='arrow';action.textContent=active?'فتح ↗':'—';
+      detail.append(title,sub);node.append(detail,action);
+      if(active){node.href=entry.url;node.target='_blank';node.rel='noopener noreferrer';node.setAttribute('aria-label','فتح نموذج '+title.textContent)}
+      host.appendChild(node);
+    });
+  }
+  renderLinks(); renderTime(); setInterval(renderTime,1000);
+})();
+</script>
+</body>
+</html>
